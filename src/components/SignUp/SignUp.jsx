@@ -50,7 +50,7 @@ const SignUp = () => {
                     <label htmlFor="confirm">Confirm Password</label>
                     <input type="password" name="confirm" id="" required/>
                 </div>
-                <input className='btn-submit' type="submit" value="Login" />
+                <input className='btn-submit' type="submit" value="Sign Up" />
             </form>
             <p><small>Already have an account?<Link to='/login'>Login</Link></small></p>
             <p className='text-error'>{error}</p>
